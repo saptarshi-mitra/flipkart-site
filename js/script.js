@@ -8,7 +8,7 @@ var Mobiles = (function(){
           <div class="row no-gutters">
             <div class="col-md-2">
               <div class="text-center">
-                <img src="${item.img}" class="card-img  card-image mx-auto" alt="redmi note 9 pro">
+                <img src="${item.img}" class="card-img  card-image mx-auto" alt="${item.name}">
               </div>
               <div class="compare">          
                 <input type="checkbox" name="check">
