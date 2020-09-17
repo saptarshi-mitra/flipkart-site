@@ -35,6 +35,7 @@ var Mobiles = (function(){
         </div>
         `).join('')}`
         document.querySelector(".fetchedData").innerHTML = str;
+        // console.log(_mobiles)
     }
     const remove = (mobile_no) => {_mobiles = _mobiles.filter((item,index) => index!=mobile_no); render();}
 
@@ -43,11 +44,13 @@ var Mobiles = (function(){
         var name = document.querySelector('#name').value
         var description = document.querySelector('#description').value
         var price = document.querySelector('#price').value
+        console.table(mobile_img,name,description,price)
         if(mobile_img==""||name==""||description==""||price==""){
             alert("Please fill up all the fields before submitting");
             return;
         }
         _mobiles = [..._mobiles, {img:mobile_img, name, description, price}]
+        console.log(_mobiles)
         render();
     }
 

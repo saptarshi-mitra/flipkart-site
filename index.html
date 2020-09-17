@@ -11,25 +11,17 @@
     <div class="row">
       <div class="col-3 left-row">
         <h2>Add new phones to the list</h2>
-        <form class="inputArea">
-          <div class="form-group">
+          <div class="col-12">
             <label for="image">Image address</label>
             <input type="text" class="form-control" placeholder="Enter the image url" id="image" required>
-          </div>
-          <div class="form-group">
             <label for="name">Name</label>
             <input type="text" class="form-control" placeholder="Name of the Phone" id="name" required>
-          </div>
-          <div class="form-group">
             <label for="description">Description of the Phone</label>
             <input type="text" class="form-control" placeholder="Description" id="description" required>
-          </div>
-          <div class="form-group">
             <label for="price">Price</label>
             <input type="text" class="form-control" placeholder="Price in numerics" id="price" required>
-          </div>
-          <button type="submit" onclick="Mobiles.addMobile()" class="btn btn-primary">Submit</button>
-        </form>
+          <button type="submit" class="btn btn-primary mt-3" onclick="Mobiles.addMobile()">Submit</button>
+        </div>
       </div>
       <div class="col-9">
         <h3>Showing 1 &mdash; 24 of 11,055 results for &ldquo;mobiles&rdquo;</h3>
