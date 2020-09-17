@@ -1,0 +1,60 @@
+ion-icon{
+	position: relative;
+	top: 2px;
+}
+
+.bg-green{
+	border-radius: 2px;
+	background-color: #018025;
+	padding: 3px 7px;
+	color: #fff;
+}
+
+.compare{
+	padding-top: 20px; 
+	margin-left: 20%;
+}
+
+.price{
+	font-size: 150%;
+	font-weight: 500;
+}
+
+.card-text img{
+	position: relative;
+	top: -4px;
+	left: 5px;
+}
+
+.card-image{
+/* 	height: 200px; */
+	width: 100px;
+}
+
+.left-row{
+	background-color: #eee;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.sort-list li{
+	list-style: none;
+	margin: 1px 10px; 
+}
+
+.sort-list li:first-child{
+	font-weight: 650;
+}
+
+.deleteButton{
+    margin-top: 75px;
+    font-size: 250%;
+}
+
+.deleteButton a{
+    color: red;
+}
+
+.inputArea{
+    margin: 0 20px;;
+}
